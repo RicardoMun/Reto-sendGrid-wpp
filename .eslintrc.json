@@ -1,0 +1,19 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+
+  "extends": ["eslint:recomended", "prettier"],
+  "env": {
+    "es6": true,
+    "node": true,
+    /* framework para pruebas unitarias */
+    "jest": true
+  },
+
+  "rules": {
+    "no-console": "warn",
+    "no-duplicate-imports": true,
+    "init-declarations": true
+  }
+}
